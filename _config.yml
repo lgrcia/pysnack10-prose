@@ -3,7 +3,7 @@
 
 title: "PySnack 10 - prose"
 author: Lionel Garcia
-logo: logo.png
+logo: _static/logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
