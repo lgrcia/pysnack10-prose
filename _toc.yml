@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: readme
+parts:
+- caption: Image processing
+  chapters:
+  - file: material/installation
+  - file: material/core
+  - file: material/reduction
+- caption: Light curve analysis
+  chapters:
+  - file: material/detection
+  - file: material/modeling

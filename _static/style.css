@@ -1,0 +1,4 @@
+.cell_output:has(> img) {
+    width: 100% !important;
+    text-align: center !important;
+}
