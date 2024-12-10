@@ -2,3 +2,5 @@ _build
 data
 raw_data
 .DS_Store
+light_data
+*.zip
