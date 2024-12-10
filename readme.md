@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="logo.png" height="250" style="margin:50px">
+</p>
+
 # PySnack 10: *prose*
 
 *Within the  Severo Ochoa Training Initiative of the IAA-CSIC we are offering short introductory practical courses about Python packages for astrophysical applications (PySnacks). We invite you to participate in the 4h course PySnack 10: prose*
