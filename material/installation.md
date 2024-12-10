@@ -32,6 +32,10 @@ conda activate pysnack10
 
 If you prefer to use Python's built-in environment manager, `venv`, follow these steps to create and activate a virtual environment:
 
+```{note}
+*prose*, the main package we will use, is tested and maintained for `python<=3.11`
+```
+
 ```bash
 python3 -m venv ~/.virtualenvs/pysnack10
 source ~/.virtualenvs/pysnack10/bin/activate
@@ -50,17 +54,21 @@ deactivate
 
 Once your Python environment is set up and activated, you can install the necessary packages for this workshop.
 
+```bash
 pip install prose jupyterlab
-
+```
 
 ```{note}
 It's a good practice to ensure pip is up to date before installing packages. Run pip install --upgrade pip if needed.
 ```
 
-For the light curve analysis part of the workshop install nuance with
+- `prose` is a Python package designed for modular image processing in astronomy. We will use it to process the TRAPPIST-1 images.
+- `jupyterlab` is a popular interactive development environment for Jupyter notebooks. We will use it to run the workshop notebooks.
+
+For the light curve analysis part of the workshop install `nuance` with
 
 ```bash
 pip install nuance
 ```
 
-`nuance` only works on UNIX system so this part can be run in groups if necessary.
+`nuance` is a transit detection Package that only works on UNIX systems, so this part can be run in groups if necessary.
