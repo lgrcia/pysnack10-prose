@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.png" height="200" style="margin:50px">
+    <img src="./_static/logo.png" height="200" style="margin:50px">
 </p>
 
 # PySnack 10: *prose*
