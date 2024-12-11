@@ -72,3 +72,9 @@ pip install nuance
 ```
 
 `nuance` is a transit detection Package that only works on UNIX systems, so this part can be run in groups if necessary.
+
+For the modeling part, install the following packages:
+
+```bash
+pip install jaxopt jaxoplanet numpyro arviz corner
+```
