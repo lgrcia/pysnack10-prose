@@ -9,6 +9,7 @@ parts:
   - file: material/installation
   - file: material/core
   - file: material/reduction
+  - file: material/exercises
 - caption: Light curve analysis
   chapters:
   - file: material/intro_detection
